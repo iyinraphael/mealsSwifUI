@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct mealSwiftUIApp: App {
+    init () {
+        let network = Network()
+        let mainViewModel = MainViewViewModel(network: network)
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()

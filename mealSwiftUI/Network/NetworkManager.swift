@@ -7,8 +7,13 @@
 
 import Foundation
 
-class NetworkManager {
+protocol NetworkManager {
     
+    func urlSessionRequest(url: URL, completion: @escaping (Result<Data, NetworkError>) -> Void)
     
+}
+
+
+extension NetworkManager {
     
 }

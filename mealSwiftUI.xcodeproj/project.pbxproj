@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		111671612AEAB6000059E424 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111671602AEAB6000059E424 /* MainViewViewModel.swift */; };
 		949A80002AEA625E008701AB /* mealSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A7FFF2AEA625E008701AB /* mealSwiftUIApp.swift */; };
 		949A80022AEA625E008701AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A80012AEA625E008701AB /* ContentView.swift */; };
 		949A80042AEA6260008701AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949A80032AEA6260008701AB /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		111671602AEAB6000059E424 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
 		949A7FFC2AEA625E008701AB /* mealSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mealSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		949A7FFF2AEA625E008701AB /* mealSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealSwiftUIApp.swift; sourceTree = "<group>"; };
 		949A80012AEA625E008701AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1116715F2AEAB5D00059E424 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				111671602AEAB6000059E424 /* MainViewViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		949A7FF32AEA625E008701AB = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +101,7 @@
 		949A80122AEA63D1008701AB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1116715F2AEAB5D00059E424 /* View Models */,
 				949A80132AEA6A22008701AB /* Meal.swift */,
 				949A80152AEA6AC2008701AB /* MealDetails.swift */,
 				949A80172AEA6E49008701AB /* NetworkError.swift */,
@@ -174,6 +185,7 @@
 				949A80112AEA63A2008701AB /* NetworkManager.swift in Sources */,
 				949A80022AEA625E008701AB /* ContentView.swift in Sources */,
 				949A80002AEA625E008701AB /* mealSwiftUIApp.swift in Sources */,
+				111671612AEAB6000059E424 /* MainViewViewModel.swift in Sources */,
 				949A800F2AEA6395008701AB /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
